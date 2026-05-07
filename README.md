@@ -44,7 +44,7 @@ Auth       → none on MVP (freemium: 10 free, then €49/month)
 ## Pricing
 
 - Free: 10 CAPAs (no account required)
-- Pro: €49/month — unlimited CAPAs
+- Pro: €99/month per company — unlimited CAPAs, unlimited QA team members
 
 ## Design Doc
 
