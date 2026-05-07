@@ -1,0 +1,26 @@
+name: Deploy
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  deploy-frontend:
+    name: Deploy Frontend (Vercel)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Deploy to Vercel
+        # Vercel auto-deploys on push via Vercel GitHub integration
+        # This job is a placeholder — connect repo in Vercel dashboard
+        run: echo "Vercel auto-deploy active"
+
+  deploy-backend:
+    name: Deploy Backend (Railway)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Deploy to Railway
+        # Railway auto-deploys on push via Railway GitHub integration
+        # This job is a placeholder — connect repo in Railway dashboard
+        run: echo "Railway auto-deploy active"
